@@ -1,0 +1,10 @@
+Searching 25 files for "/home"
+
+/Users/zheng/code/larabbs/resources/views/welcome.blade.php:
+   70                  <div class="top-right links">
+   71                      @auth
+   72:                         <a href="{{ url('/') }}">Home</a>
+   73                      @else
+   74                          <a href="{{ route('login') }}">Login</a>
+
+1 match in 1 file
